@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Haskell Weekly News: August 1, 2005</title>
+  </head>
+
+  <body>
+    <h1>Haskell Weekly News: August 1, 2005</h1>
+    <p>Greetings, and thanks for reading the <b>first issue of HWN</b>, a
+      weekly newsletter for the Haskell community.  HWN is an
+      experiment inspired by 
+      <a href="http://www.debian.org/News/weekly">Debian Weekly News</a>
+      and <a href="http://www.lwn.net/">Linux Weekly News</a>.  Each
+      Tuesday, new editions will be posted (as text) to
+      <a href="http://www.haskell.org/mailman/listinfo/haskell">the
+        Haskell mailing list</a> and (as HTML) to
+      <a href="http://sequence.complete.org/">The Haskell
+        Sequence</a>.
+    </p>
+    
+    <p>
+      <b>Want to continue reading HWN?</b>  Please help us create new
+      editions of this newsletter.  Please see the
+      <a href="http://sequence.complete.org/hwn-contrib">contributing
+        information</a>, or send stories to 
+      <a href="mailto:hwn@complete.org">hwn@complete.org</a>.  There
+      is also a Darcs repository available.
+    </p>
+
+    <h2>Discussion</h2>
+
+    <p>
+      <b>Updating the Haskell Standard?</b>  This <a
+      href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7879">question
+      was posed</a> on haskell-cafe and reaction was mixed.
+    </p>
+
+    <p>
+      <b>Best way to assemble strings?</b>  Andy Gimblett <a
+      href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/7869">inquired
+      about building up strings</a>.
+      The discussion covered options such as
+      printf, (++), concat, and even some sample code for
+      interpolation inside strings.
+    </p>
+      
+    <p><b>FFI, Threading, and Callbacks.</b>  John Goerzen <a
+        href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7862">asked
+        some questions</a> about using FFI together with threading.
+        Simon Marlow has written a <a
+        href="http://www.haskell.org/~simonmar/papers/conc-ffi.pdf">paper</a>
+        on the topic that is useful background.  Duncan Coutts
+        <a
+        href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/7903">described</a>
+        why some GUI toolkits presently do polling.
+    </p> 
+
+    <h2>Haskell Toolchain</h2>
+
+    <p><b><a href="http://www.haskell.org/cabal">Cabal</a> was a hot
+        topic this week.</b>  Brian Smith started a discussion about
+      <a
+        href="http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3487">conditional
+        code</a>
+      in Cabal.  It seems to be a common problem when porting software
+        to Windows.  Duncan Couts asked about <a
+        href="http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3487">automated
+        platform building</a> of Haskell packages based on their Cabal
+        descriptions.  And Simon Marlow <a href="
+http://news.gmane.org/find-root.php?group=gmane.comp.lang.haskell.libraries&article=3513">proposed</a>
+        an extension to the Cabal dependency syntax.
+    </p>
+
+    <p><b>GHC in Debian unstable.</b>  Due to a C++ transition going
+      on, GHC is currently uninstallable in Debian unstable.
+      If you want to use it on unstable, you can grab the libgmp3
+      package from stable.  More details in Debian bug <a
+      href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=319222">319222</a>.
+      </p>
+    
+    <h2>Conferences</h2>
+    <p>
+      The <b>2005 Haskell Workshop</b> is coming up on September 30 in
+      Tallin, Estonia.  David Roundy, author of darcs, will be a
+      feature presenter this year.  More information is available from
+      the
+      <a href="http://www.cs.uu.nl/~daan/hw2005">conference page</a>.
+    </p>
+    
+    <h2>Darcs Corner</h2>
+    <p><b>Darcs Success Story.</b>  Mark Stosberg wrote about a
+      <a
+        href="http://article.gmane.org/gmane.comp.version-control.darcs.user/7928">success
+        using Darcs</a> for just-in-time branching.
+    </p>
+
+    <p><b>Darcs on SourceForge.</b>  Eric S. Johansson 
+      <a
+        href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/7899">wondered</a>
+      if any SourceForge-like Darcs-friendly sites existed.  Thomas
+      Zander <a
+      href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/7899">suggested</a>
+      simply using public web space on SourceForge itself.
+    </p>
+
+    <p><b>Centralized development with Darcs.</b>  A question was
+      raised about <a
+        href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/7929">using
+        Darcs for centralized development</a> in a specific scenario.
+      Several solutions were mentioned.  Remko Troncon linked to a
+      recipe for <a
+        href="http://darcs.net/DarcsWiki/HintsAndTips#head-ca5f360a0038ec704eed560a82a23a742f0b547e">centralized
+        logging</a> on the Darcs wiki.  Mark Stosberg pointed out his
+      article, <a
+        href="http://mark.stosberg.com/Tech/darcs/cvs_switch/">Benefits
+        from a real world switch from CVS to Darcs</a>, and also pointed
+      out the RSS support in Darcs.
+    </p>
+
+    <h2>New Releases</h2>
+    <ul>
+      <li><b><a href="http://quux.org/devel/missingh">MissingH</a></b>
+        0.11.3 is out, and now supports Windows.  MissingH is a
+        library of pure-Haskell utility functions relating to strings,
+        logging, and I/O.  Darcs <a
+      href="http://darcs.complete.org/missingh">repository</a> also
+      available.
+      </li>
+      <li><b>hsffig</b>, a new FFI binding generator, was 
+          <a
+      href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7498">announced</a>
+      by Dimitry Golubovsky.  Download via its Darcs <a
+      href="http://www.golubovsky.org/repos/hsffig">repository</a>.
+      </li>
+    </ul>
+
+    <h2>Works In Progress / Calls For Participation</h2>
+    
+  </body>
+</html>
