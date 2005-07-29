@@ -1,0 +1,9 @@
+Conferences
+-----------
+
+Only conferences or tracks focused specifically on Haskell should be
+mentioned.
+
+Conferences should be mentioned once for a call for participation and
+at most one other time.
+
