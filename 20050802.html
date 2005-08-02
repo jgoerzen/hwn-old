@@ -52,6 +52,20 @@
 
     <h2>Haskell Toolchain</h2>
 
+    <p><b>GHC 6.4.1 release candidate is available.</b>
+      Simon Marlow has <a
+      href="http://www.haskell.org//pipermail/glasgow-haskell-users/2005-August/008840.html">announced</a>
+      the availability of GHC 6.4.1 release candidate and the
+      beginning of testing for 6.4.1.  6.4.1 includes many fixes,
+      including some performance enhancements, and also introduces
+      support for a native code generator for amd64.
+      </p>
+    <p><b>Results of GHC Performance Week.</b>  Simon Marlow posted
+      <a
+      href="http://www.haskell.org//pipermail/glasgow-haskell-users/2005-August/008839.html">a
+      summary</a> of the results of the GHC performance week.  They
+      found a number of things that improve the performance of GHC,
+      and some are already fixed in 6.4.1.</p>
     <p><b><a href="http://www.haskell.org/cabal">Cabal</a> was a hot
         topic this week.</b>  Brian Smith started a discussion about
       <a
@@ -61,9 +75,7 @@
         to Windows.  Duncan Couts asked about <a
         href="http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3487">automated
         platform building</a> of Haskell packages based on their Cabal
-        descriptions.  And Simon Marlow <a href="
-http://news.gmane.org/find-root.php?group=gmane.comp.lang.haskell.libraries&article=3513">proposed</a>
-        an extension to the Cabal dependency syntax.
+        descriptions.  
     </p>
 
     <p><b>GHC in Debian unstable.</b>  Due to a C++ transition going
@@ -129,7 +141,17 @@ http://news.gmane.org/find-root.php?group=gmane.comp.lang.haskell.libraries&arti
           <a
       href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7498">announced</a>
       by Dimitry Golubovsky.  Download via its Darcs <a
-      href="http://www.golubovsky.org/repos/hsffig">repository</a>.
+      href="http://www.golubovsky.org/repos/hsffig">repository</a>.  
+        The main unique feature of hsffig is that it can parse C .h
+          files without any human assistance whatsoever.  Version 
+        1.0 was also <a
+          href="http://www.haskell.org//pipermail/haskell-cafe/2005-August/010941.html">announced</a>
+          just yesterday.
+      </li>
+      <li><b>c2hs</b> version 0.14.1 is <a
+          href="http://article.gmane.org/gmane.comp.lang.haskell.glasgow.user/8415">out</a>.
+        It has a new parser system and its build system is now based
+        upon Cabal.
       </li>
       <li><b><a href="http://quux.org/devel/missingh">MissingH</a></b>
         0.11.3 is out, and now supports Windows.  MissingH is a
