@@ -1,0 +1,160 @@
+                      Haskell Weekly News: August 2, 2005
+
+   Greetings, and thanks for reading the first issue of HWN, a weekly
+   newsletter for the Haskell community. HWN is an experiment inspired by
+   [1]Debian Weekly News and [2]Linux Weekly News. Each Tuesday, new editions
+   will be posted (as text) to [3]the Haskell mailing list and (as HTML) to
+   [4]The Haskell Sequence.
+
+   Since this is the first issue, it covers a few items more than one week
+   old.
+
+   1. http://www.debian.org/News/weekly
+   2. http://www.lwn.net/
+   3. http://www.haskell.org/mailman/listinfo/haskell
+   4. http://sequence.complete.org/
+
+Discussion
+
+   Updating the Haskell Standard? This [5]question was posed on haskell-cafe
+   and reaction was mixed.
+
+   5. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7879
+
+   Best way to assemble strings? Andy Gimblett [6]inquired about building up
+   strings. The discussion covered options such as printf, (++), concat, and
+   even some sample code for interpolation inside strings.
+
+   6. http://article.gmane.org/gmane.comp.lang.haskell.cafe/7869
+
+   FFI, Threading, and Callbacks. John Goerzen [7]asked some questions about
+   using FFI together with threading. Simon Marlow has written a [8]paper on
+   the topic that is useful background. Duncan Coutts [9]described why some
+   GUI toolkits presently do polling.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7862
+   8. http://www.haskell.org/~simonmar/papers/conc-ffi.pdf
+   9. http://article.gmane.org/gmane.comp.lang.haskell.cafe/7903
+
+Haskell Toolchain
+
+   GHC 6.4.1 release candidate is available. Simon Marlow has [10]announced
+   the availability of GHC 6.4.1 release candidate and the beginning of
+   testing for 6.4.1. 6.4.1 includes many fixes, including some performance
+   enhancements, and also introduces support for a native code generator for
+   amd64.
+
+  10. http://www.haskell.org/pipermail/glasgow-haskell-users/2005-August/008840.html
+
+   Results of GHC Performance Week. Simon Marlow posted [11]a summary of the
+   results of the GHC performance week. They found a number of things that
+   improve the performance of GHC, and some are already fixed in 6.4.1.
+
+  11. http://www.haskell.org/pipermail/glasgow-haskell-users/2005-August/008839.html
+
+   [12]Cabal was a hot topic this week. Brian Smith started a discussion
+   about [13]conditional code in Cabal. It seems to be a common problem when
+   porting software to Windows. Duncan Couts asked about [14]automated
+   platform building of Haskell packages based on their Cabal descriptions.
+
+  12. http://www.haskell.org/cabal
+  13. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3487
+  14. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3487
+
+   GHC in Debian unstable. Due to a C++ transition going on, GHC is currently
+   uninstallable in Debian unstable. If you want to use it on unstable, you
+   can grab the libgmp3 package from stable. More details in Debian bug
+   [15]319222.
+
+  15. http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=319222
+
+Conferences
+
+   The 2005 Haskell Workshop is coming up on September 30 in Tallin, Estonia.
+   David Roundy, author of darcs, will be a feature presenter this year. More
+   information is available from the [16]conference page.
+
+  16. http://www.cs.uu.nl/~daan/hw2005
+
+Darcs Corner
+
+   Darcs 1.0.4pre2 released. David Roundy [17]announced the availability of
+   Darcs 1.0.4pre2. Major updates since 1.0.3 include reduced memory usage,
+   and experimental support for git archives.
+
+  17. http://article.gmane.org/gmane.comp.version-control.darcs.user/7987
+
+   darcsweb. Alberto Bertogli [18]announced darcsweb, a replcement for
+   darcs.cgi modeled after gitweb.
+
+  18. http://thread.gmane.org/gmane.comp.version-control.darcs.user/7841
+
+   Darcs Success Story. Mark Stosberg wrote about a [19]success using Darcs
+   for just-in-time branching.
+
+  19. http://article.gmane.org/gmane.comp.version-control.darcs.user/7928
+
+   Darcs on SourceForge. Eric S. Johansson [20]wondered if any
+   SourceForge-like Darcs-friendly sites existed. Thomas Zander [21]suggested
+   simply using public web space on SourceForge itself.
+
+  20. http://thread.gmane.org/gmane.comp.version-control.darcs.user/7899
+  21. http://thread.gmane.org/gmane.comp.version-control.darcs.user/7899
+
+   Centralized development with Darcs. A question was raised about [22]using
+   Darcs for centralized development in a specific scenario. Several
+   solutions were mentioned. Remko Troncon linked to a recipe for
+   [23]centralized logging on the Darcs wiki. Mark Stosberg pointed out his
+   article, [24]Benefits from a real world switch from CVS to Darcs, and also
+   pointed out the RSS support in Darcs.
+
+  22. http://thread.gmane.org/gmane.comp.version-control.darcs.user/7929
+  23. http://darcs.net/DarcsWiki/HintsAndTips#head-ca5f360a0038ec704eed560a82a23a742f0b547e
+  24. http://mark.stosberg.com/Tech/darcs/cvs_switch/
+
+New Releases
+
+     * hsffig, a new FFI binding generator, was [25]announced by Dimitry
+       Golubovsky. Download via its Darcs [26]repository. The main unique
+       feature of hsffig is that it can parse C .h files without any human
+       assistance whatsoever. Version 1.0 was also [27]announced just
+       yesterday.
+
+  25. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7498
+  26. http://www.golubovsky.org/repos/hsffig
+  27. http://www.haskell.org/pipermail/haskell-cafe/2005-August/010941.html
+
+     * c2hs version 0.14.1 is [28]out. It has a new parser system and its
+       build system is now based upon Cabal.
+
+  28. http://article.gmane.org/gmane.comp.lang.haskell.glasgow.user/8415
+
+     * [29]MissingH 0.11.3 is out, and now supports Windows. MissingH is a
+       library of pure-Haskell utility functions relating to strings,
+       logging, and I/O. Darcs [30]repository also available.
+
+  29. http://quux.org/devel/missingh
+  30. http://darcs.complete.org/missingh
+
+     * MissingH LGPL/BSD branch was announced. This branch is a stripped-down
+       version of MissingH, with all GPL'd code either re-licensed or
+       removed. It is available from a Darcs [31]repository only.
+
+  31. http://darcs.complete.org/missingh.lgpl
+
+Quotes of the Week
+
+   <Speck> "That's like cheating. It isn't even programming. You just tell it
+   what to do and it does it." -- My friend upon seeing some Haskell code
+
+   <autrijus> Perl: "Easy things are easy, hard things are possible"
+   <autrijus> Haskell: "Hard things are easy, the impossible just happened"
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [32]contributing information, or send stories
+   to [33]hwn@complete.org. There is also a Darcs repository available.
+
+  32. http://sequence.complete.org/hwn-contrib
+  33. mailto:hwn@complete.org
