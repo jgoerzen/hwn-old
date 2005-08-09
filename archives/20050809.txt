@@ -1,0 +1,93 @@
+                      Haskell Weekly News: August 9, 2005
+
+   Greetings, and thanks for reading the second issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+Discussion
+
+   Practical Monads. Paul Moore started a [3]discussion about Monads and
+   resources for learning about them. Quite a few readers responded with
+   suggestions.
+
+   3. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7964
+
+   STRef vs. IORef. Srinivas Nedunuri started a [4]discussion by asking when
+   to STRef and when to use IORef. Iavor Diatchki posted a helpful
+   [5]example, and many other helpful answers were posted as well.
+
+   4. http://thread.gmane.org/gmane.comp.lang.haskell.general/11895
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/11901
+
+   Parsing Foreign Languages. The The ParsingForeignLanguagesInHaskell wiki
+   page was the subject of a short [6]discussion on the libraries mailing
+   list. If you have any further information or would like to join or start a
+   project to parse a particular language, see the [7]wiki page.
+
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3572
+   7. http://www.haskell.org/hawiki/ParsingForeignLanguagesInHaskell
+
+Haskell Toolchain
+
+   Cabal was again a hot topic this week. There were discussions about
+   [8]data directories, [9]running on Windows 98, and [10]package description
+   fields in general.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3594
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3575
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3566
+
+Darcs Corner
+
+   Darcs in FreshMeat. David Roundy is [11]looking for volunteers to maintain
+   the Darcs [12]entry at FreshMeat.net. It wouldn't require much time, but
+   the ability to summarize changes at release time.
+
+  11. http://article.gmane.org/gmane.comp.version-control.darcs.user/8034
+  12. http://freshmeat.net/projects/darcs/
+
+   Binary files and line endings. Phil Brooke [13]asked how darcs handles
+   line endings and binary files.
+
+  13. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8017
+
+   Uniqueness of patch names. On #darcs this week, a discussion about the
+   uniqueness of low-level patch names in darcs. The consensus seemed to be
+   that darcs needs an additional better-than-1-second component to patch
+   names to eliminate a situation in which collisions can arise.
+
+New Releases
+
+     * Simon Marlow announced the [14]release of Haddock version 0.7.
+       Highlights of this version include improvements for linking across
+       different packages, bug fixes, collapsable trees in HTML, and support
+       for new output formats.
+     * Einar Karttunen has released [15]hsgnutls 0.1, a Haskell binding for
+       the GnuTLS SSL/TLS library.
+     * John Goerzen [16]announced the release of a preliminary, but working,
+       binding to OpenLDAP from Haskell.
+
+  14. http://article.gmane.org/gmane.comp.lang.haskell.general/11903
+  15. http://www.cs.helsinki.fi/u/ekarttun/hsgnutls/
+  16. http://article.gmane.org/gmane.comp.lang.haskell.general/11932
+
+Quotes of the Week
+
+   <CosmicRay> "Oh Lord, bless this thy holy IO monad, and use it for thy
+   purposes that it may smash Java to tiny bits..." (with apologies to monty
+   python)
+
+   <Pseudonym> If I ever write a GUI library for Haskell, I'm going to call
+   it pointlesstif.
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [17]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository available.
+
+  17. http://sequence.complete.org/hwn-contrib
