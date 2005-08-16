@@ -1,0 +1,59 @@
+                      Haskell Weekly News: August 16, 2005
+
+   Greetings, and thanks for reading the third issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * gtk2hs 0.9.9. Axel Simon [3]announced the latest version of this
+       binding to GTK, primarily containing bugfixes.
+     * h4sh. Donald Bruce Stewart [4]announced the new Haskell for shell
+       scripts package. It exposes the Haskell Data.List library for use in
+       shell scripting.
+     * c2hs 0.14.3. Manuel M. T. Chakravarty [5]released version 0.14.3 of
+       c2hs. Improvements over 0.14.1 include support for cross-compilation,
+       gcc's asm construct, better support for hierarchical module syntax,
+       and new name translation functions.
+     * magic-haskell. John Goerzen [6]announced the availability of
+       magic-haskell, a binding to C's libmagic. With it, you can determine
+       the type of a file by looking at its contents rather than its name.
+     * AVL 2.2. Adrian Hey [7]released AVL 2.2. It introduces new set
+       manipulation functions, a new type of zipper, and optimizations for
+       functions that don't modify a tree.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/11971
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/11970
+   5. http://article.gmane.org/gmane.comp.lang.haskell.glasgow.user/8566
+   6. http://www.haskell.org/pipermail/haskell/2005-August/016288.html
+   7. http://article.gmane.org/gmane.comp.lang.haskell.libraries/3631
+
+Discussion
+
+   HWN format changes this week. Based on reader feedback, the New Releases
+   section has been moved to the top of HWN. Please let me know what you
+   think. Before you ask, the Darcs and Quotes of the Week sections are
+   missing because there was no news for them this week.
+
+   Static typing. Minh Thu started a [8]discussion about the pros and cons of
+   static typing and side effects.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.general/11950
+
+   Language version pragmas. Bulat Ziganshin [9]proposed a way to specify
+   what language version and options are used in Haskell sources.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.general/11944
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [10]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  10. http://sequence.complete.org/hwn-contrib
