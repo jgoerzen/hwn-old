@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-    <title>Haskell Weekly News: August 16, 2005</title>
+    <title>Haskell Weekly News: August 23, 2005</title>
   </head>
 
   <body>
-    <h1>Haskell Weekly News: August 16, 2005</h1>
-    <p>Greetings, and thanks for reading the <b>third issue of HWN</b>, a
+    <h1>Haskell Weekly News: August 23, 2005</h1>
+    <p>Greetings, and thanks for reading the <b>fourth issue of HWN</b>, a
       weekly newsletter for the Haskell community.  
       Each
       Tuesday, new editions will be posted (as text) to
@@ -21,12 +21,111 @@
     </ul>
 
     <h2>Discussion</h2>
+    <p><b>Category theory monads.</b>  Cale Gibbard began a <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8044">discussion</a>
+    comparing the monads from category theory with the implementation
+    of monads in Haskell.  Michael Vanier <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8046">suggested</a>
+    some of Phil Wadler's <a
+    href="http://homepages.inf.ed.ac.uk/wadler/topics/monads.html">papers</a>
+    on monads.  Michael went on to say that Haskell monads are very
+    similar to those from category theory.
+    </p>
+
+    <p><b>More on FFI and callbacks.</b>  The <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7862">thread</a>
+    on FFI and callbacks was revived this week.  Among other things,
+    Duncan Coutts <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8065">noted</a> 
+      that there is no good way to do a really correct binding to
+    wxWidgets from Haskell when Haskell programs are multithreaded.
+    </p>
+
+    <p><b>Oracle on Haskell.</b>  Brian Strand <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8032">asked</a>
+    about using Oracle on Haskell, and more generally, about the
+    suitability of Haskell for database programming.  Alistair Bayley <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8033">mentioned</a>
+    that <a
+    href="http://cvs.sf.net/viewcvs.py/haskell-libs/libs/takusen/">takusen</a>
+    has Oracle support.  John Goerzen <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8041">suggested</a>
+    using HSQL's ODBC support, with unixODBC on *nix platforms.  He
+    went on to say that HSQL has been used in production
+    environments.  Krasimir Angelov, author of HSQL, <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8042">added</a>
+    that he's been wanting to add Oracle support to HSQL for awhile.
+    Finally, Brian Strand later <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8047">followed
+    up</a> and said that takusen has been working well for him so far.
+    </p>
+
+    <p><b>Pros and cons of static typing.</b>  Keean Schupke
+      <a
+      href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8020">revived</a>
+      an <a
+      href="http://thread.gmane.org/gmane.comp.lang.haskell.general/11950">earlier
+      discussion</a> about the pros and cons of static typing and side
+      effects.
+    </p>
+
+    <p><b>Static typing and interactivity.</b>  On a similar note,
+    Ketil Malde <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8037">wrote</a>
+    about not being able to load modules with type errors into ghci.
+    Bernard Pope <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8045">suggested</a>
+    the type debugger in <a
+    href="http://www.comp.nus.edu.sg/~sulzmann/chameleon/">Chameleon</a>
+    </p>
+
+    <p><b>Argument ordering.</b>  A <a
+    href="http://news.gmane.org/find-root.php?group=gmane.comp.lang.haskell.libraries&article=3640">thread</a>
+    about the order of arguments to functions entertained many
+    different viewpoints this week.  Too many to really summarize
+    here.
+    </p>
+
+    <p><b>Decoupling and encapsulation.</b>  Terrence Brannon <a
+    href="http://sequence.complete.org/node/88">wrote</a> about
+    decoupling program elements from presentation, as in HTML
+    generators.  He included a link to his document describing
+    architectural flaws in Perl's HTML::Mason.
+    </p>
 
     <h2>Haskell Toolchain</h2>
+
+    <p><b>Cabal design.</b>  Frederik Eaton started another <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3625">discussion</a>
+    about Cabal, this time focusing on run time vs. configure time
+    issues, the usage of custom package.conf files, and multiple cabal
+    files in one package.  Isaac Jones <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.libraries/3629">commented</a>
+    on most of those items.  Duncan Coutts <a
+    href="http://article.gmane.org/gmane.comp.lang.haskell.libraries/3632">suggested</a>
+    the ability to register a package "in place".
+    </p>
 
     <h2>Conferences</h2>
     
     <h2>Darcs Corner</h2>
+    <p><b>Colordiff.</b>  Dmitriy Morozov <a
+    href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/8065">asked</a>
+    about using colordiff with darcs.  Timo Savola <a
+    href="http://article.gmane.org/gmane.comp.version-control.darcs.user/8066">suggested</a>
+    a shell function to accomplish this.</p>
+
+    <p><b>Linus and git.</b>  Juliusz Chroboczek <a
+    href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/8081">posted</a>
+    a link to a discussion about Git, and mentioned that it looks like
+    they're re-inventing some Darcs features.
+    </p>
+
+    <p><b>Success with trac.</b>  Pedro Melo <a
+    href="http://thread.gmane.org/gmane.comp.version-control.darcs.user/8073">posted</a>
+    about his success using trac (a SourceForge-like system) with
+    Darcs.
+    </p>
 
     <h2>Quotes of the Week</h2>
     
