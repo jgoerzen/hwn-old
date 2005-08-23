@@ -1,0 +1,154 @@
+                      Haskell Weekly News: August 23, 2005
+
+   Greetings, and thanks for reading the fourth issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * ghc-src 0.2.0. Lemmih [3]announced ghc-src. ghc-src is a Haskell
+       parser with full support for every GHC extension. It is based on the
+       GHC source and is meant as a replacement for haskell-src-exts, though
+       it could of course have other ueses. ghc-src is available via a Darcs
+       [4]repository.
+     * Cairo binding. Not a formal release, but [5]great progress is being
+       made on the binding to the [6]Cairo vector graphics toolkit, including
+       some working code.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/11987
+   4. http://scannedinavian.org/~lemmih/ghc-src/
+   5. http://haskell.org/gtk2hs/archives/category/cairo/
+   6. http://www.cairographics.org/introduction
+
+Discussion
+
+   Category theory monads. Cale Gibbard began a [7]discussion comparing the
+   monads from category theory with the implementation of monads in Haskell.
+   Michael Vanier [8]suggested some of Phil Wadler's [9]papers on monads.
+   Michael went on to say that Haskell monads are very similar to those from
+   category theory.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8044
+   8. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8046
+   9. http://homepages.inf.ed.ac.uk/wadler/topics/monads.html
+
+   More on FFI and callbacks. The [10]thread on FFI and callbacks was revived
+   this week. Among other things, Duncan Coutts [11]noted that there is no
+   easy way to do a really correct binding to wxWidgets from Haskell when
+   Haskell programs are multithreaded, due to limitations in Haskell's
+   threading model.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/7862
+  11. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8065
+
+   Oracle on Haskell. Brian Strand [12]asked about using Oracle on Haskell,
+   and more generally, about the suitability of Haskell for database
+   programming. Alistair Bayley [13]mentioned that [14]takusen has Oracle
+   support. John Goerzen [15]suggested using HSQL's ODBC support, with
+   unixODBC on *nix platforms. He went on to say that HSQL has been used in
+   production environments. Krasimir Angelov, author of HSQL, [16]added that
+   he's been wanting to add Oracle support to HSQL for awhile. Finally, Brian
+   Strand later [17]followed up and said that takusen has been working well
+   for him so far.
+
+  12. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8032
+  13. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8033
+  14. http://cvs.sf.net/viewcvs.py/haskell-libs/libs/takusen/
+  15. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8041
+  16. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8042
+  17. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8047
+
+   Pros and cons of static typing. Keean Schupke [18]revived an [19]earlier
+   discussion about the pros and cons of static typing and side effects.
+
+  18. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8020
+  19. http://thread.gmane.org/gmane.comp.lang.haskell.general/11950
+
+   Static typing and interactivity. On a similar note, Ketil Malde [20]wrote
+   about not being able to load modules with type errors into ghci. Bernard
+   Pope [21]suggested the type debugger in [22]Chameleon.
+
+  20. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8037
+  21. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8045
+  22. http://www.comp.nus.edu.sg/~sulzmann/chameleon/
+
+   Argument ordering. A [23]thread about the order of arguments to functions
+   entertained many different viewpoints this week. Too many to really
+   summarize here.
+
+  23. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3622
+
+   Decoupling and encapsulation. Terrence Brannon [24]wrote about decoupling
+   program elements from presentation, as in HTML generators. He included a
+   link to his document describing architectural flaws in Perl's HTML::Mason.
+
+  24. http://sequence.complete.org/node/88
+
+   Future of The Monad.Reader. Shae Erisson wrote on #haskell today that he
+   is looking for someone to either take over, or help with, editing [25]The
+   Monad.Reader, Haskell's monthly online magazine. Anyone that would like to
+   help should contact him.
+
+  25. http://www.haskell.org/hawiki/TheMonadReader
+
+   How is HWN material found? I've received some questions this week about
+   how I find material for HWN. The most obvious way is if someone sends it
+   to me; see the link at the bottom of each HWN for contribution
+   information. Other than that, I read the main Haskell mailing lists, the
+   Haskell Sequence, and IRC looking for things to write about. I prefer to
+   have stories linked in at least one of these places before covering them
+   in HWN, since it gives readers a convenient place to follow discussion.
+
+Haskell Toolchain
+
+   Cabal design. Frederik Eaton started another [26]discussion about Cabal,
+   this time focusing on run time vs. configure time issues, the usage of
+   custom package.conf files, and multiple cabal files in one package. Isaac
+   Jones [27]commented on most of those items. Duncan Coutts [28]suggested
+   the ability to register a package "in place".
+
+  26. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3625
+  27. http://article.gmane.org/gmane.comp.lang.haskell.libraries/3629
+  28. http://article.gmane.org/gmane.comp.lang.haskell.libraries/3632
+
+Darcs Corner
+
+   Colordiff. Dmitriy Morozov [29]asked about using colordiff with darcs.
+   Timo Savola [30]suggested a shell function to accomplish this.
+
+  29. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8065
+  30. http://article.gmane.org/gmane.comp.version-control.darcs.user/8066
+
+   Linus and git. Juliusz Chroboczek [31]posted a link to a discussion about
+   Git, and mentioned that it looks like they're re-inventing some Darcs
+   features.
+
+  31. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8081
+
+   Success with trac. Pedro Melo [32]posted about his success using trac (a
+   SourceForge-like system) with Darcs.
+
+  32. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8073
+
+Quotes of the Week
+
+   Seen on #haskell today...
+
+   <tuomov>	define drug
+   <Itkovian>	anything that gets you addicted to
+   <Itkovian>	potentially
+   <Itkovian>	and that messes with yr senses
+   <Lemmih>	Haskell?
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [33]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  33. http://sequence.complete.org/hwn-contrib
