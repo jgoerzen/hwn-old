@@ -18,15 +18,53 @@
 
     <h2>New Releases</h2>
     <ul>
+      <li><b>FUSE bindings.</b>  David Roundy <a
+      href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8110">announced</a>
+      bindings for FUSE, the Linux library that lets people develop a
+      filesystem using userspace code.  Isaac Jones also
+        <a href="http://article.gmane.org/gmane.comp.lang.haskell.cafe/8125">mentioned</a>
+      Jeremy Bobbio's FUSE bindings.
+      </li>
+      <li><b>FastPackedString (FPS) packaging.</b>  Donald Bruce
+      Stewart has extraced the FastPackedString module from darcs and
+        <a href="http://article.gmane.org/gmane.comp.lang.haskell.general/12003">produced</a> a standalone package.  It is useful for working with
+        binary data and blocks of string data.
+      </li>
+      <li><b>Haskell Server Pages (HASP).</b>  Lemmih <a
+      href="http://thread.gmane.org/gmane.comp.lang.haskell.general/12002">announced</a>
+      Haskell Server Pages 0.3, an infrastructure for developing
+      dynamic web sites.  It's based around XML and the earlier work
+      on HSP.
+      </li>
+        
     </ul>
 
     <h2>Discussion</h2>
-
-    <h2>Haskell Toolchain</h2>
-
-    <h2>Conferences</h2>
+    <p><b>Parsing Binary Files.</b>  Joel Reymont began an <a
+    href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8111">interesting
+    discussion</a>
+          by asking about using Haskell to implement a parser for a
+          binary poker protocol.  Erlang has some binary pattern
+          matching features, and there was some discussion about
+          achieving similar results in Haskell.</p>
     
-    <h2>Darcs Corner</h2>
+    <p><b>Using STArray.</b>  Alistair Bayley asked how to use STArray
+      to improve the performance of a program.  Numerous suggestions
+      were offered in the ensuing <a
+      href="http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8091">discusion</a>,
+      including a link to some <a
+      href="http://haskell.org/hawiki/ImperativeHaskell">examples</a>
+      on the Haskell wiki.
+    </p>
+
+    <p><b>Compiling Windows GUI Executables.</b>
+        Juan Carlos Arevalo Baeza <a
+        href="http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8584">asked</a>
+        about compiling Windows GUI executables with ghc.  Duncan
+        Coutts posted a <a
+        href="http://haskell.org/gtk2hs/archives/2005/06/23/hiding-the-console-on-windows/">link</a>
+        to the Gtk2Hs FAQ explaining the procedure.
+    </p>
 
     <h2>Quotes of the Week</h2>
 <xmp>
@@ -35,9 +73,9 @@
                       GOTO; it is considered harmful"...
 </xmp>
     <p>
-    From Chad Scherror on the haskell-cafe list: <i>I've been amazed at the level of
+    From Chad Scherror on the haskell-cafe list: <i>"I've been amazed at the level of
 effort put forth by the Haskell community as a whole to help out
-newcomers.
+newcomers."
     </i>
     </p>
     <h2>About Haskell Weekly News</h2>
