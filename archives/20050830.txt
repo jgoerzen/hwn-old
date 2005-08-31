@@ -1,0 +1,77 @@
+                      Haskell Weekly News: August 30, 2005
+
+   Greetings, and thanks for reading the fifth issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+   HWN is 1 day late this week. Pesky Real Life (TM) interfered. Sorry about
+   that. Hopefully this won't happen again. Also, anyone that wants to help
+   edit HWN is welcome to do so. See the contributing section at the end.
+
+New Releases
+
+     * FUSE bindings. David Roundy [3]announced bindings for FUSE, the Linux
+       library that lets people develop a filesystem using userspace code.
+       Isaac Jones also [4]mentioned Jeremy Bobbio's FUSE bindings.
+     * FastPackedString (FPS) packaging. Donald Bruce Stewart has extraced
+       the FastPackedString module from darcs and [5]produced a standalone
+       package. It is useful for working with binary data and blocks of
+       string data.
+     * Haskell Server Pages (HASP). Lemmih [6]announced Haskell Server Pages
+       0.3, an infrastructure for developing dynamic web sites. It's based
+       around XML and the earlier work on HSP.
+     * Cairo bindings for gtk2hs completed. Paolo Martini [7]announced that
+       the Cairo bindings have been checked into the gtk2hs CVS repo on
+       SourceForge.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8110
+   4. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8125
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12003
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.general/12002
+   7. http://sourceforge.net/mailarchive/forum.php?thread_id=8063084&forum_id=44293
+
+Discussion
+
+   Parsing Binary Files. Joel Reymont began an [8]interesting discussion by
+   asking about using Haskell to implement a parser for a binary poker
+   protocol. Erlang has some binary pattern matching features, and there was
+   some discussion about achieving similar results in Haskell.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8111
+
+   Using STArray. Alistair Bayley asked how to use STArray to improve the
+   performance of a program. Numerous suggestions were offered in the ensuing
+   [9]discusion, including a link to some [10]examples on the Haskell wiki.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8091
+  10. http://haskell.org/hawiki/ImperativeHaskell
+
+   Compiling Windows GUI Executables. Juan Carlos Arevalo Baeza [11]asked
+   about compiling Windows GUI executables with ghc. Duncan Coutts posted a
+   [12]link to the Gtk2Hs FAQ explaining the procedure.
+
+  11. http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8584
+  12. http://haskell.org/gtk2hs/archives/2005/06/23/hiding-the-console-on-windows/
+
+Quotes of the Week
+
+       Then Edsger Dijkstra came down from Mt. Sinai
+                       with a tablet proclaiming "Thou shalt not use
+                       GOTO; it is considered harmful"...
+
+   From Chad Scherror on the haskell-cafe list: "I've been amazed at the
+   level of effort put forth by the Haskell community as a whole to help out
+   newcomers."
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [13]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  13. http://sequence.complete.org/hwn-contrib
