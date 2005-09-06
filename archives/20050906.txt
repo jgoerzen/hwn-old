@@ -1,0 +1,72 @@
+                     Haskell Weekly News: September 6, 2005
+
+   Greetings, and thanks for reading the sixth issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * h4sh 0.2. Donald Bruce Stewart [3]announced version 0.2 of h4sh, a
+       tool to expose Haskell functions to shell scripters. This release adds
+       more functions, removed argument flags, cabalized the package, added
+       regex operators, and had some other changes as well.
+     * cabal-get/put beta. Isaac Jones [4]announced the beta of cabal-get,
+       which will download and install Haskell packages and their
+       dependencies. It is designed to work for any cabal-compatible package.
+       The cabal-get team is looking for beta testers to try out both
+       cabal-get and cabal-put.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12043
+   4. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8188
+
+Discussion
+
+   Emacs haskell-mode. Frederik Eaton began a [5]thread on the Emacs
+   haskell-mode, asking where the latest version is available from.
+
+   5. http://thread.gmane.org/gmane.comp.lang.haskell.general/12044
+
+   Time limits on computations. Dmitry Vyal [6]asked how to set a time limit
+   on computations. Several different suggestions were presented over the
+   course of the discussion.
+
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8185
+
+Haskell Toolchain
+
+   The Haskell CVS server, previously hosted at OGI, is now being [7]hosted
+   by [8]Galois. There is a new machine and updated software, but it should
+   be a drop-in replacement overall.
+
+   7. http://article.gmane.org/gmane.comp.lang.haskell.general/12036
+   8. http://www.galois.com/
+
+Darcs Corner
+
+   Darcs 1.0.4pre3 and pre4. Two new Darcs prerelease versions happened this
+   week. First, 1.0.4pre3 was [9]announced this week. 1.0.4pre4 quickly
+   [10]followed, correcting an error in a Makefile. This is expected to be
+   the last prerelease prior to 1.0.4 itself.
+
+   9. http://article.gmane.org/gmane.comp.version-control.darcs.user/8192
+  10. http://article.gmane.org/gmane.comp.version-control.darcs.user/8198
+
+Quote of the Week
+
+   "When I read through a Haskell program, it's more like reading a novel
+   than solving a calculus problem." -- [11]post on the Haskell Sequence
+
+  11. http://sequence.complete.org/node/93
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [12]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  12. http://sequence.complete.org/hwn-contrib
