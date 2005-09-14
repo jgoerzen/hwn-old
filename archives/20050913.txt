@@ -1,0 +1,145 @@
+                    Haskell Weekly News: September 13, 2005
+
+   Greetings, and thanks for reading the seventh issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * CabalFind 0.1. Dimitry Golubovsky [3]announced CabalFind 0.1, an
+       interface to search engines such as Google and Yahoo designed to help
+       find Cabalized packages out on the Internet.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8214
+
+     * gtk2hs with Cairo. Duncan Coutts [4]announced a special release of
+       gtk2hs as a "tech preview" of the included Cairo bindings. Some
+       impressive screenshots are in there as well.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12082
+
+     * OOHaskell. Ralf Laemmel and Olaf Kiselyov [5]announced a new version
+       of their paper, "Haskell's overlooked object system" and its
+       accompanying library.
+
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12077
+
+     * StringMap. Adrian Hey [6]announced his new module, Data.StringMap,
+       which provides mapes from String keys to arbitrary values.
+
+   6. http://article.gmane.org/gmane.comp.lang.haskell.general/12104
+
+     * AVL 2.3. Adrian Hey [7]announced version 2.3 of his Data.Tree.AVL
+       library, adding a few new features and a bit of renaming.
+
+   7. http://article.gmane.org/gmane.comp.lang.haskell.libraries/3714
+
+Discussion
+
+   Why is HWN a day late this week? Your HWN editor was stuck in some large
+   airports that had a [8]surprising lack of Wifi. Sigh.
+
+   8. http://changelog.complete.org/node/388
+
+   Binary parser combinators. Einar Karttunen [9]asked about a binary parser
+   combinator interface for network protocol parsing. Malcolm Wallac pointed
+   out that nhc98 has a Binary library with a "<<" operator that could be
+   useful.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8256
+
+   Windows programming in Haskell. Brian McQueen [10]asked about Windows
+   programming in Haskell, including access to the Windows registry, APIs,
+   and communicating with other Windows apps. Several suggestions relating to
+   Hugs were offered, including .NET support and some libraries.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8221
+
+   Functional vs. Imperative. Dhaemon began an [11]interesting discussion by
+   asking for some help understanding functional vs. imperative approaches.
+   Several people commented on the IO monad, and how it is still a functional
+   interface even though it may appear imperative at first glance.
+
+  11. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8254
+
+   Mixing monadic and non-monadic functions. A long [12]thread on this
+   subject appeared in the Haskell list this week. Rather too long to
+   summarize here -- take a look at the link.
+
+  12. http://thread.gmane.org/gmane.comp.lang.haskell.general/12077
+
+   Language workbenches. Yoel Jacobsen [13]wrote about an article on language
+   workbenches, in which configuration files are actually valid code in a
+   general-purpose language. Yoel went on to ask about doing this in Haskell.
+   Some suggestions, such as hs-plugins, were offered.
+
+  13. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8227
+
+   Types in Template Haskell. Gracjan Polak [14]posted about some trouble
+   with typing in Template Haskell. Several responses regarding quoting types
+   were posted, including a reference to Simon Marlow's "update" [15]paper.
+
+  14. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8235
+  15. http://research.microsoft.com/~simonpj/tmp/notes2.ps
+
+   Web applications. Gary began a large [16]discussion by asking about
+   writing Web applications. Several options were mentioned, including Wash
+   and HAppS. S. Alexander Jacobsen [17]mentioned that he will be launching a
+   commercial chat service using Haskell and AJAX with HAppS as the
+   underlying core.
+
+  16. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8215
+  17. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8242
+
+   Calling Haskell from C++. Felix Breuer [18]wrote about some trouble
+   calling into Haskell from C++ programs. Several suggestions were provided,
+   mostly relating to C++ name mangling.
+
+  18. http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8652
+
+   What gets profiled? Niels began a [19]discussion on the use of profiling
+   features by commenting that profiling didn't seem to show the problem in
+   his own code. Several suggestions regarding memory use and possible
+   reasons that profilers might miss things were provided.
+
+  19. http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8622
+
+Haskell Toolchain
+
+   GHC 6.4.1. Simon Marlow posted an [20]update on GHC 6.4.1. Though more bug
+   reports have been rolling in while he was away, only a few are blockers
+   for 6.4.1. The tentative release date is September 19.
+
+  20. http://article.gmane.org/gmane.comp.lang.haskell.glasgow.user/8649
+
+   Data.Monoid. Ross Paterson [21]proposed replacing an instance of
+   Data.Monoid. There was some discussion about whether the old or new
+   instance was better.
+
+  21. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3719
+
+Quotes of the Week
+
+   <poetix> "Oh, a monad...that's just a funny name for a particular
+            sort of arrow"
+   <mcnster> Chocolate Frosted Monads, new from Cadbury
+   <mcnster> ... "All the sugar, twice the arrows"
+   <mcnster> Mr. Tweedsmuir, we're going to have to bypass your left
+             ventrical monad. You'll probably never play Chopin again
+   <poetix> Readers of the ABC Warriors strip in 2000AD may remember The
+            Monad as the concentrated essence of human evil
+   <mcnster> Monadocet. Because category theory should be understood
+             by everyone.
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [22]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  22. http://sequence.complete.org/hwn-contrib
