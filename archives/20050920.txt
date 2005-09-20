@@ -1,0 +1,103 @@
+                    Haskell Weekly News: September 20, 2005
+
+   Greetings, and thanks for reading the eighth issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * GHC 6.4.1. According to Simon Marlow's [3]announcement, GHC 6.4.1 is
+       out and is mainly a bugfix release. No library APIs have changed, so
+       code working with GHC 6.4 should continue to work.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12158
+
+     * Visual Haskell 0.0. Simon Marlow [4]announced Visual Haskell 0.0, a
+       Haskell development environment for the Microsoft Visual Studio
+       platform.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12161
+
+Discussion
+
+   Autrijus Tang interviewed at perl.com. Autrijus Tang is a Perl hacker and
+   developer of the first working Perl 6 [5]interpreter, which is written in
+   Haskell. On Page 2 of an [6]interview on perl.com, he explained Haskell in
+   glowing terms to the Perl audience. Favorite quote: "Haskell . . . is
+   faster than C++, more concise than Perl, more regular than Python, more
+   flexible than Ruby, more typeful than C#, more robust than Java, and has
+   absolutely nothing in common with PHP." Thanks to metaperl for
+   [7]mentioning this on the Haskell Sequence. There was als a small
+   [8]thread about this.
+
+   5. http://www.pugscode.com/
+   6. http://www.perl.com/pub/a/2005/09/08/autrijus-tang.html?page=2
+   7. http://sequence.complete.org/node/98
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8288
+
+   Overloading (==). In an interesting [9]thread, Tom Hawkins asked if it was
+   possible to overload (==) to return something other than a Bool. The
+   answer was no, but the discussion led to comments about using typeclasses
+   instead of a simple Bool type in certain situations.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8346
+
+   Haskell vs. Lisp. This [10]discussion began with a post from Mark Carter,
+   who is considering Haskell and wondering what advantages it might have
+   over Lisp. Many perspectives were discussed, especially relating to
+   metaprogramming (Lisp macros and Template Haskell). David F. Place had an
+   interesting [11]post. As someone with experience with both Haskell and
+   Lisp, he commented that Haskell's "lazy evaluation eliminates 99% of the
+   need for macros in Lisp." There were also posts by [12]Tomasz Zielonka,
+   [13]Cale Gibbard were also insightful.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8309
+  11. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8342
+  12. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8356
+  13. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8316
+
+   Network Parsing and Parsec. John Goerzen posed a [14]question about using
+   Parsec to parse network streams such as IMAP, where the results of the
+   parsing itself determine how much data should be read, and reading too
+   much data results in deadlock. Some solutions offered included a separate
+   tokenizer phase and the use of the Parsec state to help.
+
+  14. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8293
+
+Haskell Toolchain
+
+   The Big News this week is, of course, the new release of GHC. A big thanks
+   to everyone on the GHC team for this.
+
+   Cabal du jour. Cabal keeps coming up on the libraries list. This week's
+   [15]discussion revolves around whether or not a --package-db option is
+   wise.
+
+  15. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3729
+
+Quotes of the Week
+
+   "Learning Haskell requires some brain rewiring, so the best way to learn
+   it is by coding something in it for real. Yuval, a fellow "lambdacamel,"
+   learned Haskell from scratch by coding up a Forth parser, interpreter, and
+   runtime all within a few days." -- Autrijus Tang
+
+Corrections
+
+   Two typos in last week's HWN. In the web applications story, "S. Alexander
+   Jacobsen" should have been "S. Alexander Jacobson". In the binary pasrser
+   combinators story, "Malcolm Wallac" should have been "Malcolm Wallace".
+   Sorry about that.
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [16]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  16. http://sequence.complete.org/hwn-contrib
