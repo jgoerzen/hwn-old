@@ -1,0 +1,73 @@
+                    Haskell Weekly News: September 27, 2005
+
+   Greetings, and thanks for reading the ninth issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * GHC 6.4.1 for MacOS X. Wolfgang Thaller [3]announced the availability
+       of a binary GHC 6.4.1 package for MacOS X.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12182
+
+     * ghc-api 0.1.0. Lemmih [4]announced ghc-api, a cabalization of the GHC
+       6.5 API. It is currently used by hIDE.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12166
+
+Discussion
+
+   Haskell Team Winns ICFP! Congratulations to Wolfgang Thaller's team for
+   winning the ICFP 2005 programming contest! According to the [5]ICFP
+   homepage, "First prize goes to KiebererAndXiaoTou. The judges are happy to
+   proclaim that Haskell is the programming tool of choice for discriminating
+   hackers." This is the second year in a row in which a team using Haskell
+   has taken first place in this contest.
+
+   5. http://icfpc.plt-scheme.org/
+
+   The Combat-Tanteidan team (Takayuki Muranushi and Hideyuki Tanaka), also
+   using Haskell, took third place in this year's ICFP.
+
+   In addition, on page 68 of the [6]presentation slides, you can see that
+   Haskell was the top-performing language at the contest overall. The author
+   wrote, "The clear fact that stands out here is that Haskell is the
+   language of choice for the programming contest. Haskell stands out a
+   little bit in the first round, but it clearly stands out in the twist. So,
+   kudos to the Haskell community for both producing a language that lets
+   people build re-usable code and instilling this as a value in their
+   community!"
+
+   6. http://icfpc.plt-scheme.org/icfpc2005-talk.pdf
+
+   Unfortunately, the names of all team members were not documented, so I was
+   not able to list the real names for this story. Thanks to Don Stewart for
+   sending me information about this.
+
+   Haskell-style proof tools. Robin Green asked about proof tools, and the
+   resulting [7]thread contained several suggestions.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8451
+
+   Trapped by Monads. In this [8]thread, the infamous IO monad was discussed,
+   along with a number of comparisons to Forth.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8427
+
+Quote of the Week
+
+   Haskell is the programming tool of choice for discriminating hackers. --
+   ICFP 2005 judges
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [9]contributing information, or send stories to
+   hwn -at- complete -dot- org. There is also a Darcs repository available.
+
+   9. http://sequence.complete.org/hwn-contrib
