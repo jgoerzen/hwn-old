@@ -1,0 +1,56 @@
+                      Haskell Weekly News: October 4, 2005
+
+   Greetings, and thanks for reading the 10th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     The Monad.Reader, Issue 5. Shae Matijs Erisson [3]announced the release
+     of the fifth issue of The Monad.Reader, the online magazine devoted to
+     Haskell. Subjects in this issue include a short introduction to Haskell,
+     generating polyominoes, a ray tracer, number parameterized types,
+     practical graph manipulation, and a short introduction to software
+     testing in Haskell. TMR is available [4]online.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12216
+   4. http://www.haskell.org/tmrwiki/IssueFive
+
+Discussion
+
+   Quiet or Busy? It's been a quiet week on the Haskell lists, so this week's
+   HWN is a bit sparse. But that's because many Haskellers were at the
+   Haskell workshops at ICFP in Estonia. I expect we'll see some fallout from
+   those workshops on the list in the coming week.
+
+   Haskell workshop items. Over on the IRC channel [5]logs from September 30,
+   there was a live conversation beginning at 15:36:33 of the "Future of
+   Haskell discussion." Autrijus Tang's journal had several pages of entries,
+   including one [6]providing a nice summary.
+
+   5. http://meme.b9.com/cview.html?channel=haskell&date=050930
+   6. http://use.perl.org/~autrijus/journal/26953
+
+   Endian conversion. Joel Reymont asked about converting binary data in a
+   network protocol, and several suggestions were posted in the resulting
+   [7]discussion.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8556
+
+   Is putChar strict? John Meacham [8]asked this question, and pointed out
+   that different Haskell compilers/interpreters are behaving in different
+   ways.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.general/12224
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [9]contributing information, or send stories to
+   hwn -at- complete -dot- org. There is also a Darcs repository available.
+
+   9. http://sequence.complete.org/hwn-contrib
