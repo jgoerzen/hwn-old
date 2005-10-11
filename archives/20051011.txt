@@ -1,0 +1,92 @@
+                     Haskell Weekly News: October 11, 2005
+
+   Greetings, and thanks for reading the 11th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * PAM 1.0. Henning Guenther [3]announced version 1.0 of his bindings to
+       the PAM authentication libary.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12250
+
+     * cpphs 1.0. Malcolm Wallace [4]announced the release of cpphs version
+       1.0.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12233
+
+     * MissingH 0.12.0. John Goerzen [5]announced MissingH 0.12.0, which
+       added various enhancements to its binary I/O utilities.
+
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12257
+
+Calls for Participation
+
+     * Haskell Communities & Activities Report. Andres Loeh [6]posted a call
+       for contributions to the periodic report. Anyone that's part of a
+       Haskell team, has published Haskell code, written Haskell-related
+       papers or books, etc. is encouraged to submit a short entry about
+       their activities.
+
+   6. http://article.gmane.org/gmane.comp.lang.haskell.general/12261
+
+Discussion
+
+   Papers from the 2005 Haskell Workship. Dimitry Golubovsky [7]noted that
+   papers from the workshop on the ACM site required a login to read. Simon
+   Marlow posted a free link to the papers he co-authored.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8580
+
+   IRC for spreading information. John Goerzen [8]wrote about some concerns
+   regarding using IRC for spreading information to the Haskell community,
+   such as happened recently. It received some discussion on #haskell.
+
+   8. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8573
+
+   Reducing memory usage. Young Hyun began an interesting [9]thread about
+   tracking down mysterious cases of high RAM usage. Several people made
+   suggestions for things to try, including things that would be useful to
+   others.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8637
+
+   Memoization. Gerd M [10]wondered why Data.Map was slower than he expected
+   in his program.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8610
+
+   Monad Syntax. Tom Hawkins [11]asked about the syntax "| m -> s" in class
+   declarations. Several people explained that this has to do with functional
+   dependencies, an extension to Haskell 98.
+
+  11. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8601
+
+   Alternatives to hs-plugins. John Goerzen [12]posted a scenario in which
+   hs-plugins would be useful, but where concerns about its portability may
+   render it inappropriate. Nils Anders Danielsson replied with a link to his
+   code that can call Hugs to dynamically evaluate Haskell snippets.
+
+  12. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8592
+
+Haskell Toolchain
+
+   Converting fptools to Darcs. Simon Marlow [13]wrote about his ideas for
+   converting fptools from CVS to Darcs. Several people made suggestions and
+   asked questions.
+
+  13. http://news.gmane.org/gmane.comp.version-control.darcs.user
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [14]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  14. http://sequence.complete.org/hwn-contrib
