@@ -1,0 +1,79 @@
+                     Haskell Weekly News: October 18, 2005
+
+   Greetings, and thanks for reading the 12th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * Decimal arithmetic library. Jeremy Shaw [3]announced the "premature
+       release" of his new Decimal arithmetic library, which is designed for
+       cases where binary floating point is not acceptable, such as money.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8734
+
+     * JRegex. John Meacham [4]announced JRegex, a library that interfaces to
+       both PCRE and Posix regular expressions.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12340
+
+     * Haskell XML Toolbox 5.3. Uwe Schmidt [5]announced version 5.3 of the
+       Haskell XML Toolbox. The main changes in this release are improvements
+       to the arrow system.
+
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12271
+
+Requests for Participation
+
+   Future Haskell Standard. Isaac Jones [6]posted a request for participation
+   in the formation of the next standardized version of Haskell.
+
+   6. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8646
+
+   HCAR Clarification. Last week's HWN story on the Haskell Communities &
+   Activities Report (HCAR) had some misleading wording. Participation in
+   this report is open to all, and submissions are encouraged from everyone.
+
+Discussion
+
+   Haskell mentioned on Slashdot. Haskell was [7]mention on Slashdot. The
+   post was refering to [8]an article about optimizing development for fun
+   and had [9]pugs as its example.
+
+   7. http://developers.slashdot.org/article.pl?sid=05/10/09/1831219&tid=156
+   8. http://www.oreillynet.com/pub/wlg/7996
+   9. http://www.pugscode.org/
+
+   ZLib bindings. Joel Reymont [10]asked about code for handling GZip files.
+   Henning Thielemann suggested the code in Darcs. Malcom Wallace pointed out
+   code in qforeign, and John Goerzen mentioned the pure-Haskell
+   implementation in MissingH.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8759
+
+   GADTs. Bulat Ziganshin began a [11]discussion asking for resources on
+   GADTs. Several people posted links to helpful resources.
+
+  11. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8708
+
+   Class aliases. John Meacham began a long [12]discussion by proposing class
+   aliases, a language extension to solve problems of multiple
+   implementations of the same concept in different libraries.
+
+  12. http://thread.gmane.org/gmane.comp.lang.haskell.general/12276
+
+About Haskell Weekly News
+
+   Thanks to Josef Svenningsson for contributing material towards this week's
+   HWN.
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [13]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  13. http://sequence.complete.org/hwn-contrib
