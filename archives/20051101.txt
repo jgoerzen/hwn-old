@@ -1,0 +1,113 @@
+                     Haskell Weekly News: November 1, 2005
+
+   Greetings, and thanks for reading the 13th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * Time Library 0.2. Ashley Yakeley [3]announced a draft of a new time
+       library and solicited comments.
+
+   3. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3882
+
+Calls for participation
+
+   HCAR entries due TODAY. Andres Loeh posted a [4]reminder that entries for
+   the Haskell Communities and Activities Report are due today.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8876
+
+Discussion
+
+   Undecidable instances. In a [5]thread about the need for undecidable
+   instances, Johannes Waldmann [6]suggested the use of termination
+   analyzers.
+
+   5. http://thread.gmane.org/gmane.comp.lang.haskell.general/12334
+   6. http://article.gmane.org/gmane.comp.lang.haskell.general/12343
+
+   Finding the character frequency in a string. Jon Fairbairn started an
+   interesting [7]thread about calculating the frequency each character in a
+   string occurs.
+
+   7. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8869
+
+   FFI and modifying Haskell memory. Joel Reymont [8]asked about proper FFI
+   design for programs that read data in.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/8834
+
+Haskell Toolchain
+
+   GHC assembly. John Meacham [9]posted an analysis of GHC's assembly output,
+   a comparison to jhc, and some suggestions for improving GHC's output.
+
+   9. http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8827
+
+   Data.* collections maintenance. This large [10]thread on the libraries
+   list covered potential future directions for the Data.* libraries.
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3813
+
+Quotes of the Week
+
+   For those that adhere to learn one new language per year which other
+   languages should we learn?
+   Matz suggests io (or Haskell but he admits it makes his brain explode).
+   -- From RubyConf 2005 Roundtable discussion with Yukihiro "Matz"
+   Matsumoto, creator of Ruby.
+
+The Meta-FAQ
+
+   Q: What happened to HWN last week?
+
+   A: The answer to this question really goes back to the 16th century and
+   the first movements in Europe to modernize astronomy away from the
+   earth-centric view. But it wasn't really until Newton's time (late 17th
+   and early 18th centuries) that we started to have the more advanced
+   understanding necessary to begin answering this question. Modern
+   astronomers have been able to calculate the period of the earth at
+   86164.09053 seconds, which is a few minutes shorter than the apparent day
+   due to the earth's simultaneous orbit around the sun.
+
+   The second part of the answer to this question dates back even farther to
+   ancient Egypt. The Egyptians used a duo-decimal numbering system, and
+   found it convenient to separate each day into 24 equal units. Since then,
+   other definitions for the hour have come in to play, usually based on the
+   apparent solar day or the time between sunrise and sunset. These days, the
+   hour is defined at 3600 seconds.
+
+   While each day appears to consist of approximately 24 hours, the period of
+   the earth really is 23 hours, 56 minutes, and 4.09053 seconds. (I for one
+   am pleased to receive the extra 4 minutes per day.)
+
+   So, we can see that the problem really is that there just weren't enough
+   hours in a day for your HWN editor to get the issue out on time last week.
+   I blame it on the ancient Egyptians.
+
+   Q: Would HWN have come out on time if you hadn't had to prepare a lengthy
+   explanation for why it was late?
+
+   A: Good question. You should medidate on that for awhile and let us know
+   for next week's HWN.
+
+   Q: Does this issue cover two weeks of fascinating Haskell news then?
+
+   A: Of course!
+
+About Haskell Weekly News
+
+   Thanks to Jim Apple and Josef Svenningsson for contributing to this week's
+   HWN.
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [11]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  11. http://sequence.complete.org/hwn-contrib
