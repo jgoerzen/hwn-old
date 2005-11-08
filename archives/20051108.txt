@@ -1,0 +1,78 @@
+                     Haskell Weekly News: November 8, 2005
+
+   Greetings, and thanks for reading the 14th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * Haskell-mode 2.1. Stefan Monnier recently [3]released version 2.1 of
+       his haskell editing mode for Emacs.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12445
+
+     * Gtk2hs 0.9.10. Duncan Coutts announced that the latest version of the
+       GTK bindings for Haskell is now [4]available. Major new features
+       include the Cairo vector graphics library bindings, Pango text layout
+       code, new Gtk+ 2.8 APIs, and a Windows installer.
+
+   4. http://article.gmane.org/gmane.comp.lang.haskell.general/12436
+
+     * Frown 0.6. Ralf Hinze [5]announced the first release of Frown, a
+       LALR(k) parser generator for Haskell. Frown has a number of
+       interesting features and is considered beta-quality at this time.
+
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12403
+
+     * network-alt 0.3 and hsgnutls 0.2.1. Einar Karttunen [6]announced the
+       availability of new versions of these two libraries. network-alt is an
+       alternative networking library designed to have a nicer API and better
+       performance. hsgnutls is a TLS/SSL layer atop the GNU TLS library,
+       supporting both client and server applications.
+
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3904
+
+Calls for Participation
+
+   Top 10 articles. Kenneth Hoste posted a [7]request for people to
+   contribute articles about various Haskell subjects. Each article will list
+   the 10 most famous or frequently used things about that particular
+   subject, and will be posted through The Monad.Reader.
+
+   7. http://article.gmane.org/gmane.comp.lang.haskell.cafe/9050
+
+Discussion
+
+   Time libraries. Ashley Yakeley started a lively [8]thread about time
+   libraries in Haskell.
+
+   8. http://thread.gmane.org/gmane.comp.lang.haskell.libraries/3882
+
+Conferences
+
+   Haskell Workshop Steering Committee. Johan Jeuring [9]announced that ACM
+   SIGPLAN has approved a Haskell Workshop Steering Committee to offer help
+   and advice to the organizers of the workshop.
+
+   9. http://article.gmane.org/gmane.comp.lang.haskell.cafe/8975
+
+Darcs Corner
+
+   Darcs 1.0.4rc2 is out. David Roundy [10]announced the release of Darcs
+   1.0.4rc2, the second and hopefully last candidate before the 1.0.4
+   release.
+
+  10. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8620
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [11]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  11. http://sequence.complete.org/hwn-contrib
