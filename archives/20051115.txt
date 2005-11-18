@@ -1,0 +1,60 @@
+                     Haskell Weekly News: November 15, 2005
+
+   Greetings, and thanks for reading the 15th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+     * York Haskell Compiler. Thomas Davie [3]announced the York Haskell
+       Compiler project, which already has working code. Quite a few people
+       chimed in with questions.
+
+   3. http://thread.gmane.org/gmane.comp.lang.haskell.general/12485
+
+Discussion
+
+   Making Haskell more open. Simon Peyton-Jones began a [4]long thread with
+   some ideas about making Haskell more open to the wider community. The
+   thread is too long to completely summarize here, and branched out in
+   several directions, including a [5]discussion of the haskell.org homepage.
+
+   4. http://thread.gmane.org/gmane.comp.lang.haskell.general/12479
+   5. http://article.gmane.org/gmane.comp.lang.haskell.general/12533
+
+   Haskell users survey. John Hughes [6]wrote about a web-based survey about
+   Haskell. He is encouraging everyone with an interest in Haskell to
+   participate.
+
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.general/12448
+
+Darcs Corner
+
+   Darcs 1.0.4 was [7]released this week. There are quite a few performance
+   improvements, a new posthook option, manifest feature, new "darcs put"
+   command, more git support, and various bugfixes.
+
+   7. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8706
+
+Quote of the Week
+
+   "Impossible things are delayed immediately. Miracles may take a little
+   longer." -- Claus Reinke on haskell-cafe.
+
+About Haskell Weekly News
+
+   Yes, it's late again. But, while I am no Zaphod Beeblebrox, carry no
+   towel, have no Improbability Drive, and certainly couldn't have come up
+   with 42 on my own, if Douglas Adam's "Hitchhiker's Guide to the Universe"
+   series can still be called a trilogy, then HWN can still be 
+   called weekly :-)
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [8]contributing information, or send stories to
+   hwn -at- complete -dot- org. There is also a Darcs repository available.
+
+   8. http://sequence.complete.org/hwn-contrib
