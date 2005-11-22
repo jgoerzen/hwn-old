@@ -1,0 +1,68 @@
+                     Haskell Weekly News: November 22, 2005
+
+   Greetings, and thanks for reading the 16th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+New Releases
+
+   There are several exciting releases to report this week.
+
+     * hmp3. Donald Bruce Stewart [3]announced hmp3, an ncurses-based music
+       player written in Haskell.
+
+   3. http://article.gmane.org/gmane.comp.lang.haskell.general/12637
+
+     * Frag. Mon Hon Cheong [4]announced Frag, a first-person shooter written
+       in Haskell using HOpenGL. Several comments were posted offering thanks
+       and seeking more information. [5]Screenshots are also available.
+
+   4. http://thread.gmane.org/gmane.comp.lang.haskell.general/12628
+   5. http://haskell.org/hawiki/Frag
+
+     * Haskell Communities & Activities Report. The November 2005 editition
+       of this report is now [6]available.
+
+   6. http://article.gmane.org/gmane.comp.lang.haskell.general/12624
+
+     * Haskell Server Pages 0.4.0. The latest release of HASP is now
+       [7]available, featuring a new bytecode generator and less of a need
+       for many other add-on packages.
+
+   7. http://article.gmane.org/gmane.comp.lang.haskell.general/12617
+
+     * Blobs diagram editor. The first release of Blobs was [8]announced this
+       week. It is based on earlier work that has been shown at some Haskell
+       conferences.
+
+   8. http://article.gmane.org/gmane.comp.lang.haskell.general/12603
+
+Requests for Participation
+
+   Take 10 list. Kenneth Hoste [9]posted a request for user contributions
+   regarding a top 10 list of Haskell libraries.
+
+   9. http://article.gmane.org/gmane.comp.lang.haskell.general/12639
+
+Discussion
+
+   Updating Haskell. It's been a busy week for these discussions. There have
+   been threads on [10]records (~ 200 messages) and [11]GHC. Unfortunately
+   your HWN editor hasn't had time to read these monster threads, so have at
+   it!
+
+  10. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/9201
+  11. http://thread.gmane.org/gmane.comp.lang.haskell.general/12592
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [12]contributing information, or send stories
+   to hwn -at- complete -dot- org. There is also a Darcs repository
+   available.
+
+  12. http://sequence.complete.org/hwn-contrib
