@@ -1,0 +1,46 @@
+                     Haskell Weekly News: November 29, 2005
+
+   Greetings, and thanks for reading the 17th issue of HWN, a weekly
+   newsletter for the Haskell community. Each Tuesday, new editions will be
+   posted (as text) to [1]the Haskell mailing list and (as HTML) to [2]The
+   Haskell Sequence.
+
+   1. http://www.haskell.org/mailman/listinfo/haskell
+   2. http://sequence.complete.org/
+
+Discussion
+
+   Monads in other languages. A very interesting [3]thread covering
+   availability of monads for other programming languages.
+
+   3. http://thread.gmane.org/gmane.comp.lang.haskell.cafe/9430
+
+   Haskell in higher education. John Hughes posted a [4]survey aimed at those
+   teaching Haskell in higher education.
+
+   4. http://thread.gmane.org/gmane.comp.lang.haskell.general/12680
+
+   GHC 6.6 progress. Jim Apple mentioned the [5]wiki page on GHC 6.6.
+
+   5. http://haskell.org/hawiki/GHC_206_2e6
+
+   GHC targetting Java. John Goerzen [6]asked about the apparent support for
+   a Java target in the GHC source tree. Simon Peyton-Jones noted that it is
+   no longer supported.
+
+   6. http://thread.gmane.org/gmane.comp.lang.haskell.glasgow.user/8970
+
+Darcs Corner
+
+   P2P repositories. There was a lot of [7]discussion on the Darcs lists
+   about using a P2P network for storing Darcs information.
+
+   7. http://thread.gmane.org/gmane.comp.version-control.darcs.user/8883
+
+About Haskell Weekly News
+
+   Want to continue reading HWN? Please help us create new editions of this
+   newsletter. Please see the [8]contributing information, or send stories to
+   hwn -at- complete -dot- org. There is also a Darcs repository available.
+
+   8. http://sequence.complete.org/hwn-contrib
